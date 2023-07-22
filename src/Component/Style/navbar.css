@@ -48,7 +48,6 @@
     width: auto;
     margin-left: 15px;
     position: relative;
-  
   }
   .topic {
     justify-content: flex-start;
@@ -91,5 +90,3 @@
     margin-left: -35px;
   }
 }
-
-
