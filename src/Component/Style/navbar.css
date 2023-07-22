@@ -48,9 +48,7 @@
     width: auto;
     margin-left: 15px;
     position: relative;
-    /* position: sticky;
-            top: 0;
-            background-color: white; */
+  
   }
   .topic {
     justify-content: flex-start;
@@ -94,9 +92,4 @@
   }
 }
 
-/* @media screen and (min-width: 601px) and (max-width: 1050px) {
-    
-    
 
-
-} */
