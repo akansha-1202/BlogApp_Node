@@ -16,9 +16,6 @@ export default function NavBar() {
           <div className="the">The</div>
           <div className="siren">Siren</div>
         </div>
-        {/* <div className="dropdown">
-          <Profile />
-        </div> */}
         <button
           className="mobile-menu-icon"
           onClick={() => {
@@ -37,7 +34,7 @@ export default function NavBar() {
         <li>
           <NavLink to="/" className="link">
             Home
-          </NavLink>{" "}
+          </NavLink>
         </li>
         <li>
           <NavLink to="/hollywood" className="link">

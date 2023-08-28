@@ -4,13 +4,11 @@ import TopPosts from "./TopPosts";
 import "../Style/category.css"
 
 const Articles = () => {
-  return (
-    <>  
+  return ( 
       <div className="articlesContainer">
         <Blogs />
         <TopPosts />
       </div>
-    </>
   );
 };
 

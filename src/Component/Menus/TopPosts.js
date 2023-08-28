@@ -35,7 +35,7 @@ export default function TopPosts() {
 
   if (loading) {
     return (
-      <div>
+      <div class="main-container">
         <h1 className="topPosts">Top Posts</h1>
         {data
             .filter((e) => {
@@ -69,7 +69,7 @@ export default function TopPosts() {
             );
           } else if (index <= count2) {
             return (
-              <div className="article3 " key={index}>
+              <div className="article3" key={index}>
                 <Link
                   to={`/details/${encodeURIComponent(article.urlToImage)}`}
                   state={article}

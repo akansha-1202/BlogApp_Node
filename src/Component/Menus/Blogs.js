@@ -44,9 +44,8 @@ export default function Blogs() {
 
   if (loading) {
     return (
-      <>
         <div className="main-container">
-          <h1 className="category-page-title-">{titleString}</h1>
+          <h1 className="category-page-title">{titleString}</h1>
           {data
             .filter((e) => {
               return e.category === para;
@@ -91,7 +90,6 @@ export default function Blogs() {
             Load More
           </button>
         </div>
-      </>
     );
   } else {
     return <h1>Loading...⭕</h1>;
