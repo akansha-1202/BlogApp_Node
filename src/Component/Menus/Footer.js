@@ -56,7 +56,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="av">
-                    <Avatar src={avatar2} className="" />
+                    <Avatar src={avatar2} />
                     <div className="avatar-cont">
                       {/* <p>WRITTEN BY:</p> */}
                       <p>Akansha Verma</p>

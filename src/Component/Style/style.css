@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 
 @media screen and (max-width: 600px) {
   body {
-    margin: 40px 40px 40px 40px;
+    margin: 10px;
   }
 
-=======
-
-@media screen and (max-width: 600px) {
-  body {
-    margin: 40px 40px 40px 40px;
-  }
-
->>>>>>> 40a657fd6c5f7ea952c85973a5519093f7c67c18
 }

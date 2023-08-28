@@ -10,6 +10,7 @@
 .detail-image {
   width: 500px;
   height: 400px;
+  object-fit: cover;
 }
 .detail-content {
   width: 500px;
@@ -72,6 +73,7 @@
     width: 300px;
     height: 350px;
     margin-right: 10px;
+    object-fit: cover;
   }
   .detail-content {
     width: 300px;
@@ -161,5 +163,6 @@
     gap: 7px;
     height: auto;
     width: auto;
+    object-fit: contain;
   }
 }

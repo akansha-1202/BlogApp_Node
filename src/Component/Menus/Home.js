@@ -73,11 +73,11 @@ const Home = () => {
               >
                 <img src={article.urlToImage} alt={article.title} />
               </Link>
-              <div className="content">
+              <div className="home-content">
                 <Link to={`/details/${article.title}`} state={article}>
                   <p>{article.title}</p>
                 </Link>
-                <p className="content">{article.content}</p>
+                <p className="cont">{article.content}</p>
                 <div className="blog-details">
                   <p className="category">{article.category}</p>
                   <p className="published">{article.publishedAt}</p>
@@ -105,9 +105,9 @@ const Home = () => {
                 >
                   <img src={article.urlToImage} alt={article.title} />
                 </Link>
-                <div className="blog-content">
+                <div className="home-blog-content">
                   <Link to={`/details/${article.title}`} state={article}>
-                    <p className="title">{article.title}</p>
+                    <p className="home-title">{article.title}</p>
                   </Link>
                   <p className="content">{article.content}</p>
                   <div className="blog-details">
@@ -159,7 +159,7 @@ const Home = () => {
                   />
                 </Link>
                 <Link to={`/details/${article.title}`} state={article}>
-                  <p className="title">{article.title}</p>
+                  <p className="home-title">{article.title}</p>
                 </Link>
                 <div className="blog-details">
                   <p className="category">{article.category}</p>
@@ -186,9 +186,9 @@ const Home = () => {
                   />
                 </Link>
 
-                <div className="blog-content">
+                <div className="home-blog-content">
                   <Link to={`/details/${article.title}`} state={article}>
-                    <p className="title">{article.title}</p>
+                    <p className="home-title">{article.title}</p>
                   </Link>
 
                   <div className="blog-details">
