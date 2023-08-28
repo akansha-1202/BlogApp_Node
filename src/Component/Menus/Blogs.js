@@ -26,7 +26,7 @@ export default function Blogs() {
       // }
       )
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data);
         setLoading(true);
       });

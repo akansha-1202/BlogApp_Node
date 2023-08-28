@@ -9,7 +9,7 @@ import "../Style/details.css";
 
 const Details = () => {
   const article = useLocation().state;
-  console.log("useLocation : ", article);
+  // console.log("useLocation : ", article);
 
   return (
     <div>

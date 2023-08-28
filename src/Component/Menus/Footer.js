@@ -21,7 +21,7 @@ export default function Footer() {
         // }
       )
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data);
         // setLoading(true);
       });
@@ -38,7 +38,6 @@ export default function Footer() {
           .slice(14, 17)
           .map((article, index) => {
             return (
-              <>
                 <div className="latest2" key={index}>
                   <Link
                     to={`/details/${encodeURIComponent(article.urlToImage)}`}
@@ -67,7 +66,6 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-              </>
             );
           })}
       </div>

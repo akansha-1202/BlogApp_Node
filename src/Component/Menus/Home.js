@@ -21,7 +21,7 @@ const Home = () => {
         // }
       )
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data);
         setLoading(true);
       });
@@ -147,7 +147,7 @@ const Home = () => {
             })
             .slice(12, 13)
             .map((article, index) => (
-              <div className="topPost">
+              <div className="topPost" key={index}>
                 <Link
                   to={`/details/${encodeURIComponent(article.urlToImage)}`}
                   state={article}
@@ -174,7 +174,7 @@ const Home = () => {
             })
             .slice(13, 16)
             .map((article, index) => (
-              <div className="topPostList ">
+              <div className="topPostList" key={index}>
                 <Link
                   to={`/details/${encodeURIComponent(article.urlToImage)}`}
                   state={article}
@@ -213,7 +213,7 @@ const Home = () => {
           })
           .slice(16, 19)
           .map((article, index) => (
-            <div className="latest2" key={article.id}>
+            <div className="latest2" key={index}>
               <Link
                 to={`/details/${encodeURIComponent(article.urlToImage)}`}
                 state={article}
